@@ -18,7 +18,7 @@ public class VideoStoreTest {
         statement = new Statement("Customer");
         newReleaseMovie1 = new ReleaseMovie("New Release 1");
         newReleaseMovie2 = new ReleaseMovie("New Release 2");
-        childrensMovie = new ChildreanMovie("Childrens");
+        childrensMovie = new ChildrenMovie("Childrens");
         regular1 = new RegularMovie("Regular 1");
         regular2 = new RegularMovie("Regular 2");
         regular3 = new RegularMovie("Regular 3");

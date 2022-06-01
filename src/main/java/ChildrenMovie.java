@@ -1,15 +1,14 @@
-public class RegularMovie extends Movie {
+public class ChildrenMovie extends Movie {
 
-    public RegularMovie(String title) {
+    public ChildrenMovie(String title) {
         super(title);
     }
 
     @Override
     double determineAmount(int daysRented) {
-        double rentalAmount = 2;
-
-        if (daysRented > 2) {
-            rentalAmount += (daysRented - 2) * 1.5;
+        double rentalAmount = 1.5;
+        if (daysRented > 3) {
+            rentalAmount += (daysRented - 3) * 1.5;
         }
         return rentalAmount;
     }
